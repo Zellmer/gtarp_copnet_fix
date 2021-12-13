@@ -5,10 +5,11 @@ function FixKalender(){
   $(".fc-event").css('color','white')
 }
 
+/*//Nicht mehr notwendig da gefixt
 function FixErmittlung(){
   $('.ck').css('background-color','tan')
 }
-
+*/
 
 function FixNetzwerk(){
   //Main Network Site
@@ -27,7 +28,6 @@ function FixNetzwerk(){
       //$(this).html(decodeURI($(value).text()));//@Todo wirkt auf auf Mails wudurch man diese nicht mehr bedienen kann!
       
     });
-
 }
 
 
